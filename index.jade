@@ -9,23 +9,33 @@ html(lang='es', ng-app)
         meta(name='keywords', content='keywords')
         meta(name='author', content='author')
         meta(name="robots", content="index, follow")
+        meta(http-equiv='refresh' content='15;  url="http://orangepuebla.com"')
         //- ----- link website ----- //
         link(rel='icon' href='img/favicon.png' type='image/x-icon')
         //- ----- CSS Files ----- //
-        link(rel='stylesheet', href='Skeleton/css/normalize.css')
-        link(rel='stylesheet', href='Skeleton/css/skeleton.css')
+        link(rel='stylesheet', href='skeleton/css/normalize.css')
+        link(rel='stylesheet', href='skeleton/css/skeleton.css')
         link(rel='stylesheet', href='css/master.min.css')
+        script(type='text/javascript', src='node_modules/jquery/dist/jquery.js')
+        script(type='text/javascript', src='node_modules/angular/angular.js' async='async')
     body.page-overview
-      .wrapp#particles-js
-        .center
-          #up
-            img(src='http://orangepuebla.com/test/img/logo_b.png')
-          #down
-            .row
-              img.columns.four(src='img/byc.jpg')
-              img.columns.four(src='img/recurso 1.png')
-              img.columns.four(src='img/ogo.png')
-    script(type='text/javascript', src='node_modules/jquery/dist/jquery.js', attr)
-    script(type='text/javascript', src='node_modules/angular/angular.js' async='async')
+      .wrapper#particles-js
+      header
+        h2 Corporativo <span>Bravhac</span>
+      article.container
+        .first
+          figure
+            img(src='img/bh.svg', title="bravhac logo", alt="bravhac_logo", attr)
+        .row
+          figure.columns.four
+            img(src='img/cas.png', title="", alt="la_casona_de_joaquin")
+            figcaption La Casona de joaquín
+          figure.columns.four
+            img(src='img/byc.png', title="", alt="byc")
+            figcaption B&C Asesores Fiscales y Financieros
+          figure.columns.four
+            img(src='img/ogo.png', title="", alt="ogo_services")
+            figcaption Ogo Services
+            a(href='http://ogoser.com', title="ogo services", attr)
     script(type='text/javascript', src='node_modules/particles.js/particles.js')
     script(type='text/javascript', src='app.js')
