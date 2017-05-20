@@ -9,7 +9,7 @@ html(lang='es', ng-app)
         meta(name='keywords', content='keywords')
         meta(name='author', content='author')
         meta(name="robots", content="index, follow")
-        meta(http-equiv='refresh' content='15;  url="http://orangepuebla.com"')
+        //meta(http-equiv='refresh' content='15;  url="http://orangepuebla.com"')
         //- ----- link website ----- //
         link(rel='icon' href='img/favicon.png' type='image/x-icon')
         //- ----- CSS Files ----- //
@@ -23,16 +23,18 @@ html(lang='es', ng-app)
       header
         h2 Corporativo <span>Bravhac</span>
       article.container
-        .first
-          figure
+        .first.row
+          figure.columns.six
             img(src='img/bh.svg', title="bravhac logo", alt="bravhac_logo", attr)
+          figure.columns.six.op
+            img(src='img/op.png', title="orange puebla logo", alt="op_logo", attr)
         .row
           figure.columns.four
             img(src='img/cas.png', title="", alt="la_casona_de_joaquin")
             figcaption La Casona de joaquín
           figure.columns.four
             img(src='img/byc.png', title="", alt="byc")
-            figcaption B&C Asesores Fiscales y Financieros
+            figcaption B&C
           figure.columns.four
             img(src='img/ogo.png', title="", alt="ogo_services")
             figcaption Ogo Services

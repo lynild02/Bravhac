@@ -8,7 +8,7 @@
     <meta name="keywords" content="keywords">
     <meta name="author" content="author">
     <meta name="robots" content="index, follow">
-    <meta http-equiv="refresh" content="15;  url=&quot;http://orangepuebla.com&quot;">
+    <!--meta(http-equiv='refresh' content='15;  url="http://orangepuebla.com"')-->
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="skeleton/css/normalize.css">
     <link rel="stylesheet" href="skeleton/css/skeleton.css">
@@ -22,15 +22,16 @@
       <h2>Corporativo <span>Bravhac</span></h2>
     </header>
     <article class="container">
-      <div class="first">
-        <figure><img src="img/bh.svg" title="bravhac logo" alt="bravhac_logo" attr></figure>
+      <div class="first row">
+        <figure class="columns six"><img src="img/bh.svg" title="bravhac logo" alt="bravhac_logo" attr></figure>
+        <figure class="columns six op"><img src="img/op.png" title="orange puebla logo" alt="op_logo" attr></figure>
       </div>
       <div class="row">
         <figure class="columns four"><img src="img/cas.png" title="" alt="la_casona_de_joaquin">
           <figcaption>La Casona de joaquín</figcaption>
         </figure>
         <figure class="columns four"><img src="img/byc.png" title="" alt="byc">
-          <figcaption>B&C Asesores Fiscales y Financieros</figcaption>
+          <figcaption>B&C</figcaption>
         </figure>
         <figure class="columns four"><img src="img/ogo.png" title="" alt="ogo_services">
           <figcaption>Ogo Services</figcaption><a href="http://ogoser.com" title="ogo services" attr></a>

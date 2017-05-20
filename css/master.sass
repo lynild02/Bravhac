@@ -1,6 +1,6 @@
 $orange: #EC6726
 $comforta: Comfortaa-R
-$green-o: #6B902D
+$green-o: #768d38
 *
   box-sizing: border-box
 figure
@@ -37,18 +37,14 @@ img
     -webkit-backdrop-filter: blur(10px)
     .first
       width: 100%
-      height: auto
-      min-height: 250px
+      padding: 0 180px
       z-index: 10
       figure
-        width: 20%
-        margin: 0
-        position: absolute
-        top: 0
-        left: 50%
-        transform: translateX(-50%)
+        position: relative
         img
-          width: 100%
+          width: auto
+          height: auto
+          min-width: 100%
     .row
       margin-bottom: 20px
       figure
@@ -70,3 +66,16 @@ img
           left: 0
           right: 0
           bottom: 0
+@media (max-width: 775px)
+  .page-overview
+    article.container
+      padding: 30px !important
+      .first
+        padding: 15px!important
+        figure
+          width: 100% !important
+          position: relative !important
+          top: 0 !important
+          left: 0 !important
+          transform: translate(0) !important
+          padding: 20px !important
